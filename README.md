@@ -1,4 +1,4 @@
-# Base64 to ZIP Converter
+# Base64 to ZIP Converter (AOT PUBLISH INCLUDED IN CSPROJ)
 
 A simple tool that converts a Base64-encoded text file back into a ZIP archive.
 
@@ -45,7 +45,7 @@ Output: `output.zip` – a valid ZIP archive containing the original files.
 ## Build
 
 ```cmd
-dotnet publish -c Release -r win-x64 -o publish --self-contained true
+dotnet publish -c Release -r win-x64 -o publish
 ```
 
 > **Note:** Useful for extracting archived data received via JSON payloads.
